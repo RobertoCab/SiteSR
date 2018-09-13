@@ -40,6 +40,16 @@ Inc.
     box-sizing: border-box
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+::-webkit-scrollbar-track {
+    display: none;
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url("Monserrat.otf");
